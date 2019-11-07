@@ -1,0 +1,74 @@
+/* You can add global styles to this file, and also import other style files */
+.clear {
+	clear: both;
+}
+h1 {
+  color: black !important;
+}
+h4 {
+  color: #CC5500 !important;
+}
+.blog-left ul {
+	list-style-type: none;
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+.blog-left a {
+  color: black;
+}
+.blog-left a:hover{
+  text-decoration: none;
+  color: #FF4F00;
+}
+.blog-left a.selected{
+  color: #FF4F00;
+  text-decoration: none;
+}
+
+.blog-main {
+  padding-left: 30px !important;
+}
+
+footer{
+	margin: 40px 0 0 0;
+    padding: 10px 0;
+    color: #999;
+    text-align: center;
+    background-color:  #eee; /* #f9f9f9; */
+    border-top: 1px solid #e5e5e5;
+}
+
+footer ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+footer li {
+	display: inline;
+    margin-right: 5px; 
+    padding: 3px;
+}
+
+button#reset {
+  display: inline-block;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(90,90,90);
+  text-decoration: none;
+  user-select: none;
+  padding: .4em 1.2em;
+  outline: none;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background: rgb(245,245,245) linear-gradient(#f1f1f1, #ccc);
+  transition: all .218s ease 0s;
+  margin: 20px 0 20px 20px;
+}
+
+div#select {
+  margin: 0 0 0 20px;
+  width: 100%;
+}

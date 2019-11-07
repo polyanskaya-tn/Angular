@@ -1,0 +1,11 @@
+<ul>
+	<li *ngFor="let article of articles">
+		<p class="header">{{article.title}} {{article.category}}</p>
+		<p>{{article.info}}</p>
+		<div>
+			<div class="author">{{getAuthorStr(article)}}</div>
+			<div class="pdate">{{article.date}}</div>
+			<div class="clear"></div>
+		</div>
+	</li>
+</ul>
